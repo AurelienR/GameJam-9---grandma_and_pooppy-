@@ -1,0 +1,9 @@
+/Binaries
+/DerivedDataCache
+/Intermediate
+/Saved
+*.suo
+*.sdf
+*.opensdf
+.DS_Store
+**.DS_Store
