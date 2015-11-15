@@ -1,0 +1,1033 @@
+﻿[2015.11.14-11.14.23:087][  0]Log file open, 11/14/15 12:14:23
+[2015.11.14-11.14.23:087][  0]LogInit:Display: Running engine for game: GrandmaAndPooppy
+[2015.11.14-11.14.23:087][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.14-11.14.23:087][  0]LogInit:Display: RandInit(-850955112) SRandInit(-850955111).
+[2015.11.14-11.14.23:087][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.14-11.14.23:087][  0]LogStats: Stats thread started at 0.058228
+[2015.11.14-11.14.23:087][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.14-11.14.23:087][  0]LogInit: API Version: 2758231
+[2015.11.14-11.14.23:087][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.14-11.14.23:087][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.14-11.14.23:087][  0]LogInit: Build Configuration: Development
+[2015.11.14-11.14.23:087][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.14-11.14.23:087][  0]LogInit: Command line:  
+[2015.11.14-11.14.23:087][  0]LogInit: Base directory: C:/Logiciels/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.14-11.14.23:087][  0]LogInit: Rocket: 1
+[2015.11.14-11.14.23:095][  0]LogInit: Using libcurl 7.41.0
+[2015.11.14-11.14.23:095][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.14-11.14.23:095][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.14-11.14.23:095][  0]LogInit:  - other features:
+[2015.11.14-11.14.23:095][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.14-11.14.23:095][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.14-11.14.23:095][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.14-11.14.23:095][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.14-11.14.23:095][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.14-11.14.23:095][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.14-11.14.23:095][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.14-11.14.23:095][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.14-11.14.23:095][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.14-11.14.23:095][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.14-11.14.23:102][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.14-11.14.23:110][  0]LogInit: Object subsystem initialized
+[2015.11.14-11.14.23:111][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-11.14.23:111][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.14-11.14.23:122][  0]LogInit: Computer: LASALAMANDRE
+[2015.11.14-11.14.23:122][  0]LogInit: User: Julio
+[2015.11.14-11.14.23:122][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.14-11.14.23:122][  0]LogInit: High frequency timer resolution =2.533349 MHz
+[2015.11.14-11.14.23:122][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.14-11.14.23:122][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-11.14.23:122][  0]LogMemory: Process Physical Memory: 56.80 MB used, 56.80 MB peak
+[2015.11.14-11.14.23:122][  0]LogMemory: Process Virtual Memory: 58.10 MB used, 58.10 MB peak
+[2015.11.14-11.14.23:122][  0]LogMemory: Physical Memory: 3623.15 MB used, 8088.75 MB total
+[2015.11.14-11.14.23:122][  0]LogMemory: Virtual Memory: 353.00 MB used, 8388608.00 MB total
+[2015.11.14-11.14.23:163][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.14-11.14.23:631][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.14-11.14.23:631][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 1 output[s]
+[2015.11.14-11.14.23:651][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.14-11.14.23:651][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 0 output[s]
+[2015.11.14-11.14.23:651][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.14-11.14.23:658][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.14-11.14.23:658][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.14-11.14.23:674][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.14-11.14.23:690][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Intermediate/Shaders/WorkingDirectory/7640/).
+[2015.11.14-11.14.23:690][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Julio/AppData/Local/Temp/UnrealShaderWorkingDir/EB252B5E4A9A359186233EAA81BF77D3/'.
+[2015.11.14-11.14.23:690][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.14-11.14.24:671][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.14-11.14.24:677][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.14-11.14.24:682][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.14-11.14.24:687][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.14-11.14.24:692][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.14-11.14.24:696][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.14-11.14.24:699][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.14-11.14.24:702][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.14-11.14.24:706][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.14-11.14.24:709][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.14-11.14.24:713][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.14-11.14.24:720][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.14-11.14.24:720][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.14-11.14.24:720][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.14-11.14.24:737][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.14-11.14.24:740][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.14-11.14.24:743][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.14-11.14.24:746][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.14-11.14.24:746][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.14-11.14.24:846][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.14-11.14.24:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.14-11.14.24:977][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.14-11.14.24:988][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Julio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.14-11.14.25:171][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-11.14.25:172][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.14-11.14.25:210][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.14-11.14.25:210][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.14-11.14.25:553][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.14-11.14.26:298][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.14-11.14.26:391][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.11.14-11.14.26:579][  0]SourceControl: Info Source control is disabled
+[2015.11.14-11.14.26:580][  0]SourceControl: Info Source control is disabled
+[2015.11.14-11.14.26:593][  0]SourceControl: Info Source control is disabled
+[2015.11.14-11.14.26:603][  0]SourceControl: Info Source control is disabled
+[2015.11.14-11.14.26:844][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.14-11.14.26:844][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.11.14-11.14.26:908][  0]LogEngine: Initializing Engine...
+[2015.11.14-11.14.26:910][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.14-11.14.26:910][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.14-11.14.27:090][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.14-11.14.27:096][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.14.27:120][  0]LogInit: FAudioDevice initialized.
+[2015.11.14-11.14.27:148][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.14-11.14.27:153][  0]LogInit: Texture streaming: Enabled
+[2015.11.14-11.14.27:159][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.14-11.14.27:159][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.14-11.14.27:159][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7363a7de489977d2d6e8a5a849b15fd2|6c143e4a78834ca18f4c828388e83007|ed842e65-bf83-4705-912f-96b2489fe3ee
+[2015.11.14-11.14.27:159][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.14-11.14.27:184][  0]LogInit: Transaction tracking system initialized
+[2015.11.14-11.14.27:224][  0]BlueprintLog: New page: Editor Load
+[2015.11.14-11.14.27:313][  0]LocalizationService: Info Localization service is disabled
+[2015.11.14-11.14.27:393][  0]LogConsoleResponse:Display: 
+[2015.11.14-11.14.27:555][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.14-11.14.27:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/' took 0.01s
+[2015.11.14-11.14.27:637][  0]SourceControl: Info Source control is disabled
+[2015.11.14-11.14.27:637][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.14-11.14.27:637][  0]LightingResults: New page: Lighting Build
+[2015.11.14-11.14.27:642][  0]MapCheck: New page: Map Check
+[2015.11.14-11.14.27:642][  0]LightingResults: New page: Lighting Build
+[2015.11.14-11.14.27:668][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025A1FB00
+[2015.11.14-11.14.27:808][  0]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.14.27:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.14-11.14.27:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.14-11.14.27:865][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.701ms to complete.
+[2015.11.14-11.14.27:865][  0]LogFileHelpers: Loading map 'MainLevel' took 0.228
+[2015.11.14-11.14.27:968][  0]LogCollectionManager: Loaded 0 collections in 0.002492 seconds
+[2015.11.14-11.14.28:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Collections/' took 0.01s
+[2015.11.14-11.14.28:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Developers/Julio/Collections/' took 0.01s
+[2015.11.14-11.14.28:008][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Collections/' took 0.01s
+[2015.11.14-11.14.28:008][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.14-11.14.28:017][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 1893 classes and 338 folders.
+[2015.11.14-11.14.28:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.14-11.14.28:085][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.14-11.14.28:089][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.11.14-11.14.28:113][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.14-11.14.28:119][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.14-11.14.28:146][  0]LogLoad: Full Startup: 5.52 seconds (BP compile: 0.05 seconds)
+[2015.11.14-11.14.28:167][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.14-11.14.28:213][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.14-11.14.28:368][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2015.11.14-11.14.28:543][  2]LogAssetRegistry: Asset discovery search completed in 2.1624 seconds
+[2015.11.14-11.14.28:543][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.14-11.14.28:543][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2015.11.14-11.14.40:182][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.14.40:182][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.14.40:182][683]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:14:40 PM)
+[2015.11.14-11.14.40:182][683]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.14.40:185][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003196s)
+[2015.11.14-11.14.40:186][683]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.14.40:186][683]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2015.11.14-11.14.40:186][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004035s)
+[2015.11.14-11.14.40:215][683]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.14.40:220][683]LogInit: FAudioDevice initialized.
+[2015.11.14-11.14.40:448][683]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.14.40:451][683]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.14.40
+[2015.11.14-11.14.40:451][683]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.14.40:451][683]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.14.40:451][683]LogWorld: Bringing up level for play took: 0.001827
+[2015.11.14-11.14.40:453][683]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.516
+[2015.11.14-11.14.40:459][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.14.51:163][301]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.14.51:201][301]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.14.51:225][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000479D2200
+[2015.11.14-11.14.52:454][375]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.14.56:716][628]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.14.58:147][713]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.14.58:513][734]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.14.59:023][764]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.15.08:604][252]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-11.15.09:066][252]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.11.14-11.15.46:183][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.15.46:298][653]LogSavePackage: Save=70.435616ms
+[2015.11.14-11.15.46:298][653]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel65041FA34F53B8BD5D256494972005CD.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.15.46:301][653]LogSavePackage: Total save time: 77.749256ms
+[2015.11.14-11.15.46:301][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.15.46:336][653]LogFileHelpers: Saving map 'MainLevel' took 0.209
+[2015.11.14-11.15.46:344][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.15.46:432][653]LogSavePackage: Save=84.398949ms
+[2015.11.14-11.15.46:432][653]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background4FB1ADF64FF51893479C81B1C95A70DE.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.15.46:436][653]LogSavePackage: Total save time: 90.196416ms
+[2015.11.14-11.15.46:436][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.16.02:010][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.16.02:123][273]LogSavePackage: Save=68.962074ms
+[2015.11.14-11.16.02:123][273]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel305977F445C83714B86079842C23E725.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.16.02:128][273]LogSavePackage: Total save time: 75.722296ms
+[2015.11.14-11.16.02:128][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.16.02:164][273]LogFileHelpers: Saving map 'MainLevel' took 0.208
+[2015.11.14-11.16.02:171][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.16.02:268][273]LogSavePackage: Save=92.761398ms
+[2015.11.14-11.16.02:269][273]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/BackgroundEAF639CF4F170147293D558D488A6993.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.16.02:273][273]LogSavePackage: Total save time: 100.218330ms
+[2015.11.14-11.16.02:273][273]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.16.03:688][333]BlueprintLog: New page: Compile Background
+[2015.11.14-11.16.03:828][333]BlueprintEditorCompileResults: Info [0101.20] Compile of Background successful! [in 139 ms]
+[2015.11.14-11.16.25:239][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.16.25:239][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.16.25:240][283]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:16:25 PM)
+[2015.11.14-11.16.25:240][283]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.16.25:244][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004152s)
+[2015.11.14-11.16.25:244][283]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.16.25:245][283]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2015.11.14-11.16.25:245][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.005112s)
+[2015.11.14-11.16.25:287][283]LogSelection:Warning: PIE object was selected: "Background_C /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Background_C_1"
+[2015.11.14-11.16.25:290][283]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.16.25:295][283]LogInit: FAudioDevice initialized.
+[2015.11.14-11.16.25:331][283]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.16.25:333][283]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.16.25
+[2015.11.14-11.16.25:333][283]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.16.25:333][283]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.16.25:333][283]LogWorld: Bringing up level for play took: 0.002043
+[2015.11.14-11.16.25:335][283]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.364
+[2015.11.14-11.16.25:341][283]LogSelection:Warning: PIE object was selected: "Background_C /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Background_C_1"
+[2015.11.14-11.16.25:341][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.16.27:267][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.16.27:309][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.16.27:349][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000541A2AC0
+[2015.11.14-11.16.27:880][407]LogEditorViewport: Clicking Background
+[2015.11.14-11.16.32:769][622]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.16.32:769][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.16.32:770][622]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:16:32 PM)
+[2015.11.14-11.16.32:770][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.16.32:773][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003167s)
+[2015.11.14-11.16.32:773][622]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.16.32:774][622]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2015.11.14-11.16.32:774][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004007s)
+[2015.11.14-11.16.32:816][622]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.16.32:820][622]LogInit: FAudioDevice initialized.
+[2015.11.14-11.16.32:853][622]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.16.32:855][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.16.32
+[2015.11.14-11.16.32:855][622]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.16.32:856][622]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.16.32:856][622]LogWorld: Bringing up level for play took: 0.001905
+[2015.11.14-11.16.32:857][622]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.113
+[2015.11.14-11.16.32:859][622]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.15:325][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.15:364][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.15:403][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E472340
+[2015.11.14-11.17.23:682][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.17.23:793][420]LogSavePackage: Save=68.835365ms
+[2015.11.14-11.17.23:793][420]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelCA0696614D1ABE5AA337EBB254A77E03.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.17.23:796][420]LogSavePackage: Total save time: 74.539274ms
+[2015.11.14-11.17.23:797][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.17.23:835][420]LogFileHelpers: Saving map 'MainLevel' took 0.208
+[2015.11.14-11.17.26:007][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.26:007][545]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.14-11.17.26:025][545]LogPlayLevel: [PlayLevel] Compiling Background before play...
+[2015.11.14-11.17.26:100][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 92 ms (1 blueprints)
+[2015.11.14-11.17.26:140][545]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:17:26 PM)
+[2015.11.14-11.17.26:140][545]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.17.26:143][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002994s)
+[2015.11.14-11.17.26:144][545]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.17.26:144][545]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2015.11.14-11.17.26:144][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003806s)
+[2015.11.14-11.17.26:187][545]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.17.26:192][545]LogInit: FAudioDevice initialized.
+[2015.11.14-11.17.26:224][545]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.17.26:226][545]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.17.26
+[2015.11.14-11.17.26:226][545]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.17.26:226][545]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.17.26:227][545]LogWorld: Bringing up level for play took: 0.001938
+[2015.11.14-11.17.26:228][545]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.743
+[2015.11.14-11.17.26:229][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.48:190][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.48:231][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.17.48:330][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000051C95120
+[2015.11.14-11.18.03:954][409]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:14267).
+[2015.11.14-11.19.52:919][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.19.53:042][464]LogSavePackage: Save=73.381912ms
+[2015.11.14-11.19.53:042][464]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelC8BB8D3D40785C4B1563B393C505EDB7.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.19.53:046][464]LogSavePackage: Total save time: 83.459880ms
+[2015.11.14-11.19.53:046][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.19.53:085][464]LogFileHelpers: Saving map 'MainLevel' took 0.221
+[2015.11.14-11.19.53:091][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.19.53:186][464]LogSavePackage: Save=86.469727ms
+[2015.11.14-11.19.53:186][464]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/BackgroundECE12C6C4BA9B04DBD767EAEF5D950A3.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.19.53:190][464]LogSavePackage: Total save time: 96.844535ms
+[2015.11.14-11.19.53:190][464]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.19.54:661][518]BlueprintLog: New page: Compile Background
+[2015.11.14-11.19.54:775][518]BlueprintEditorCompileResults: Info [0332.14] Compile of Background successful! [in 114 ms]
+[2015.11.14-11.19.56:224][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.19.56:224][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.19.56:224][569]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:19:56 PM)
+[2015.11.14-11.19.56:224][569]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.19.56:228][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004105s)
+[2015.11.14-11.19.56:229][569]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.19.56:229][569]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2015.11.14-11.19.56:229][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.005064s)
+[2015.11.14-11.19.56:274][569]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.19.56:279][569]LogInit: FAudioDevice initialized.
+[2015.11.14-11.19.56:315][569]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.19.56:318][569]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.19.56
+[2015.11.14-11.19.56:318][569]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.19.56:318][569]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.19.56:318][569]LogWorld: Bringing up level for play took: 0.002442
+[2015.11.14-11.19.56:320][569]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.654
+[2015.11.14-11.19.56:322][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.02:803][851]LogEditorViewport: Clicking Background
+[2015.11.14-11.20.09:208][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.09:250][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.09:289][196]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000373AB9C0
+[2015.11.14-11.20.27:033][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.20.27:142][186]LogSavePackage: Save=67.492081ms
+[2015.11.14-11.20.27:142][186]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelDD05BD1A410E61588F01F2980E303D49.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.20.27:145][186]LogSavePackage: Total save time: 71.928106ms
+[2015.11.14-11.20.27:145][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.20.27:177][186]LogFileHelpers: Saving map 'MainLevel' took 0.198
+[2015.11.14-11.20.29:484][316]BlueprintLog: New page: Compile Background
+[2015.11.14-11.20.29:599][316]BlueprintEditorCompileResults: Info [0366.96] Compile of Background successful! [in 114 ms]
+[2015.11.14-11.20.39:904][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.39:904][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.20.39:905][922]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:20:39 PM)
+[2015.11.14-11.20.39:905][922]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.20.39:909][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004158s)
+[2015.11.14-11.20.39:909][922]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.20.39:910][922]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2015.11.14-11.20.39:910][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.005137s)
+[2015.11.14-11.20.39:955][922]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.20.39:959][922]LogInit: FAudioDevice initialized.
+[2015.11.14-11.20.39:992][922]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.20.39:996][922]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.20.39
+[2015.11.14-11.20.39:996][922]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.20.39:996][922]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.20.39:996][922]LogWorld: Bringing up level for play took: 0.003487
+[2015.11.14-11.20.39:998][922]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 1.023
+[2015.11.14-11.20.40:000][922]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.49:672][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.49:716][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.49:754][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005A067E20
+[2015.11.14-11.20.55:117][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.20.55:231][746]LogSavePackage: Save=71.248375ms
+[2015.11.14-11.20.55:231][746]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel96F2B64F4A817E5ABB1AE8920BC65098.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.20.55:234][746]LogSavePackage: Total save time: 75.721506ms
+[2015.11.14-11.20.55:234][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.20.55:268][746]LogFileHelpers: Saving map 'MainLevel' took 0.206
+[2015.11.14-11.20.55:275][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.20.55:371][746]LogSavePackage: Save=91.296936ms
+[2015.11.14-11.20.55:371][746]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background474DC4FE492143E24AC33EBF29A437E4.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.20.55:376][746]LogSavePackage: Total save time: 98.951623ms
+[2015.11.14-11.20.55:376][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.20.58:951][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.20.58:951][946]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.14-11.20.58:963][946]LogPlayLevel: [PlayLevel] Compiling Background before play...
+[2015.11.14-11.20.59:035][946]LogPlayLevel: PlayLevel: Blueprint regeneration took 84 ms (1 blueprints)
+[2015.11.14-11.20.59:077][946]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:20:59 PM)
+[2015.11.14-11.20.59:077][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.20.59:080][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003032s)
+[2015.11.14-11.20.59:080][946]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.20.59:081][946]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2015.11.14-11.20.59:081][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003897s)
+[2015.11.14-11.20.59:122][946]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.20.59:128][946]LogInit: FAudioDevice initialized.
+[2015.11.14-11.20.59:166][946]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.20.59:168][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.20.59
+[2015.11.14-11.20.59:168][946]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.20.59:169][946]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.20.59:169][946]LogWorld: Bringing up level for play took: 0.001825
+[2015.11.14-11.20.59:170][946]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.195
+[2015.11.14-11.20.59:172][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.33:662][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.33:704][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.33:829][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000543CA160
+[2015.11.14-11.21.38:276][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.21.38:387][ 99]LogSavePackage: Save=69.577461ms
+[2015.11.14-11.21.38:387][ 99]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel87A47EEB4D20D39B47589BB1FAB0DF69.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.21.38:390][ 99]LogSavePackage: Total save time: 74.222699ms
+[2015.11.14-11.21.38:390][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.21.38:425][ 99]LogFileHelpers: Saving map 'MainLevel' took 0.205
+[2015.11.14-11.21.40:028][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.40:028][183]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.14-11.21.40:044][183]LogPlayLevel: [PlayLevel] Compiling Background before play...
+[2015.11.14-11.21.40:117][183]LogPlayLevel: PlayLevel: Blueprint regeneration took 88 ms (1 blueprints)
+[2015.11.14-11.21.40:159][183]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:21:40 PM)
+[2015.11.14-11.21.40:159][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.21.40:162][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
+[2015.11.14-11.21.40:162][183]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.21.40:162][183]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2015.11.14-11.21.40:162][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003768s)
+[2015.11.14-11.21.40:205][183]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.21.40:210][183]LogInit: FAudioDevice initialized.
+[2015.11.14-11.21.40:245][183]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.21.40:247][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.21.40
+[2015.11.14-11.21.40:247][183]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.21.40:248][183]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.21.40:248][183]LogWorld: Bringing up level for play took: 0.002344
+[2015.11.14-11.21.40:249][183]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.726
+[2015.11.14-11.21.40:251][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.50:253][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.50:292][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.21.50:417][679]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C80A160
+[2015.11.14-11.21.57:028][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.21.57:138][ 67]LogSavePackage: Save=67.739189ms
+[2015.11.14-11.21.57:138][ 67]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelD44C1AC24762394052A431A25894E2BF.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.21.57:140][ 67]LogSavePackage: Total save time: 72.063107ms
+[2015.11.14-11.21.57:140][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.21.57:171][ 67]LogFileHelpers: Saving map 'MainLevel' took 0.196
+[2015.11.14-11.21.57:179][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.21.57:267][ 67]LogSavePackage: Save=85.197891ms
+[2015.11.14-11.21.57:267][ 67]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background545F3B1E4F38EA7B6C2859A3AF17EB58.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.21.57:272][ 67]LogSavePackage: Total save time: 91.414962ms
+[2015.11.14-11.21.57:272][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.24.42:823][891]LogWindowsTextInputMethodSystem:Error: Activating a context failed while setting focus on a TSF document manager. Paramètre incorrect. (0x80070057)
+[2015.11.14-11.30.38:417][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.30.38:551][ 24]LogSavePackage: Save=85.888283ms
+[2015.11.14-11.30.38:551][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel47835CD040ACF0B8F8E2A3BE80652742.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.30.38:554][ 24]LogSavePackage: Total save time: 94.281126ms
+[2015.11.14-11.30.38:554][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.30.38:590][ 24]LogFileHelpers: Saving map 'MainLevel' took 0.227
+[2015.11.14-11.30.38:598][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.30.38:718][ 24]LogSavePackage: Save=111.458786ms
+[2015.11.14-11.30.38:718][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/BackgroundB56D6EFD4450E624DFE64AA9654149ED.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.30.38:722][ 24]LogSavePackage: Total save time: 122.345559ms
+[2015.11.14-11.30.38:722][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.30.39:786][ 86]BlueprintLog: New page: Compile Background
+[2015.11.14-11.30.39:932][ 86]BlueprintEditorCompileResults: Info [0977.29] Compile of Background successful! [in 146 ms]
+[2015.11.14-11.30.40:481][117]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.30.47:625][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.30.47:625][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.30.47:625][489]PIE: New page: PIE session: MainLevel (Nov 14, 2015, 1:30:47 PM)
+[2015.11.14-11.30.47:625][489]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.30.47:629][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003727s)
+[2015.11.14-11.30.47:629][489]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.30.47:630][489]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2015.11.14-11.30.47:630][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004639s)
+[2015.11.14-11.30.47:673][489]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.30.47:679][489]LogInit: FAudioDevice initialized.
+[2015.11.14-11.30.47:712][489]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.30.47:714][489]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.30.47
+[2015.11.14-11.30.47:714][489]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.30.47:714][489]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.30.47:714][489]LogWorld: Bringing up level for play took: 0.001954
+[2015.11.14-11.30.47:718][489]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.734
+[2015.11.14-11.30.47:718][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.30.48:623][543]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.49:622][603]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.50:622][663]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.51:607][722]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.52:607][782]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.53:607][842]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.54:607][902]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.55:607][962]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.56:607][ 22]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.57:607][ 82]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.58:607][142]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.30.59:607][202]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.00:613][262]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.01:414][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.01:458][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.01:497][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000137EEA20
+[2015.11.14-11.31.10:590][773]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.11.14-11.31.15:626][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.15:626][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.31.15:626][967]PIE: New page: PIE session: MainLevel (Nov 14, 2015, 1:31:15 PM)
+[2015.11.14-11.31.15:626][967]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.31.15:629][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003333s)
+[2015.11.14-11.31.15:630][967]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.31.15:630][967]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2015.11.14-11.31.15:630][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004191s)
+[2015.11.14-11.31.15:699][967]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.31.15:704][967]LogInit: FAudioDevice initialized.
+[2015.11.14-11.31.15:740][967]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.31.15:742][967]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.31.15
+[2015.11.14-11.31.15:742][967]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.31.15:742][967]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.31.15:742][967]LogWorld: Bringing up level for play took: 0.001784
+[2015.11.14-11.31.15:744][967]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.76
+[2015.11.14-11.31.15:745][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.16:612][ 19]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.17:612][ 79]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.18:612][139]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.19:613][199]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.20:613][259]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.21:613][319]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.22:613][379]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.23:613][439]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.24:613][499]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.25:614][559]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.26:615][619]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.27:615][679]LogBlueprintUserMessages: [Background_C_1] Hello
+[2015.11.14-11.31.28:432][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.28:487][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.31.28:525][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E21CE00
+[2015.11.14-11.36.04:373][881]AssetReimport: New page: Outstanding source content changes 1:36:04 PM
+[2015.11.14-11.36.04:373][881]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/immeuble.png)
+[2015.11.14-11.36.04:485][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/immeuble" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/immeuble.uasset" SILENT=true
+[2015.11.14-11.36.04:501][881]LogSavePackage: Save=13.590706ms
+[2015.11.14-11.36.04:501][881]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/immeubleE0BE6C8B4420D3FED9FB28A7B5E50AAF.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/immeuble.uasset'
+[2015.11.14-11.36.04:504][881]LogSavePackage: Total save time: 16.853977ms
+[2015.11.14-11.36.04:504][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/immeuble.uasset
+[2015.11.14-11.36.07:713][891]AssetReimport: Info Importing new asset /Game/Sprites/immeuble.
+[2015.11.14-11.36.14:040][910]AssetReimport: New page: Outstanding source content changes 1:36:14 PM
+[2015.11.14-11.36.14:041][910]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building.png)
+[2015.11.14-11.36.14:130][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/building" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building.uasset" SILENT=true
+[2015.11.14-11.36.14:147][910]LogSavePackage: Save=15.417536ms
+[2015.11.14-11.36.14:147][910]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/buildingA63EB78248FB7600EFF47EB61B69C8B2.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building.uasset'
+[2015.11.14-11.36.14:150][910]LogSavePackage: Total save time: 18.601861ms
+[2015.11.14-11.36.14:150][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building.uasset
+[2015.11.14-11.36.27:445][ 36]AssetReimport: Info Importing new asset /Game/Sprites/building.
+[2015.11.14-11.36.27:445][ 36]AssetReimport: Info Attempting to delete immeuble (its source file has been removed).
+[2015.11.14-11.36.43:732][763]LogPhysics:Warning: AddBoxesToRigidActor: [/Game/Sprites/building_sprite.building_sprite] BoxElems[0] invalid or has invalid transform
+[2015.11.14-11.36.49:951][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.36.50:069][ 24]LogSavePackage: Save=69.402596ms
+[2015.11.14-11.36.50:069][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelE38439484C3A9A8678CEC8B0279F2C7E.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.36.50:072][ 24]LogSavePackage: Total save time: 78.578200ms
+[2015.11.14-11.36.50:072][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.36.50:106][ 24]LogFileHelpers: Saving map 'MainLevel' took 0.210
+[2015.11.14-11.36.50:114][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.36.50:216][ 24]LogSavePackage: Save=93.653893ms
+[2015.11.14-11.36.50:216][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/BackgroundD55F60B540EB837C4C0526BEB057BFF8.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.36.50:219][ 24]LogSavePackage: Total save time: 103.483569ms
+[2015.11.14-11.36.50:219][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.36.50:229][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Immeuble" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset" SILENT=true
+[2015.11.14-11.36.50:246][ 24]LogSavePackage: Save=14.786751ms
+[2015.11.14-11.36.50:246][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Immeuble17F7EE3A48B026E6AC27A88500CF0EBA.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset'
+[2015.11.14-11.36.50:249][ 24]LogSavePackage: Total save time: 17.866466ms
+[2015.11.14-11.36.50:249][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset
+[2015.11.14-11.36.50:269][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/building_sprite" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building_sprite.uasset" SILENT=true
+[2015.11.14-11.36.50:281][ 24]LogSavePackage: Save=10.239016ms
+[2015.11.14-11.36.50:281][ 24]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/building_sprite486548E34EA4D569E4C677BE32416E47.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building_sprite.uasset'
+[2015.11.14-11.36.50:284][ 24]LogSavePackage: Total save time: 13.190050ms
+[2015.11.14-11.36.50:284][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/building_sprite.uasset
+[2015.11.14-11.37.01:037][466]BlueprintLog: New page: Compile Immeuble
+[2015.11.14-11.37.01:121][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008D0C85E0
+[2015.11.14-11.37.01:127][466]BlueprintEditorCompileResults: Info [1358.48] Compile of Immeuble successful! [in 90 ms]
+[2015.11.14-11.37.17:765][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Immeuble" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset" SILENT=true
+[2015.11.14-11.37.17:794][111]LogSavePackage: Save=21.419474ms
+[2015.11.14-11.37.17:794][111]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Immeuble875C06AE43DB418932A4679CAA6E2290.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset'
+[2015.11.14-11.37.17:797][111]LogSavePackage: Total save time: 30.857969ms
+[2015.11.14-11.37.17:797][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Immeuble.uasset
+[2015.11.14-11.37.26:023][429]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.14-11.37.46:556][501]LogBlueprint:Error: [compiler Background] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.11.14-11.37.46:556][501]LogBlueprint:Error: [compiler Background] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.Building:UserConstructionScript.K2Node_FunctionEntry_153' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.SKEL_Building_C' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.Building_C' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.Building:EventGraph.K2Node_Event_205' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.Building:EventGraph.K2Node_Event_206' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:762][501]LogMetaData: Removing '/Game/Blueprints/Scenes/Building.Building:EventGraph.K2Node_Event_207' ref from Metadata '/Game/Blueprints/Scenes/Immeuble.PackageMetaData'
+[2015.11.14-11.37.46:798][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Building" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset" SILENT=true
+[2015.11.14-11.37.46:815][501]LogSavePackage: Save=15.182275ms
+[2015.11.14-11.37.46:815][501]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Building90B07C974CC559F44FBC4F8F58F59CED.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset'
+[2015.11.14-11.37.46:817][501]LogSavePackage: Total save time: 17.681338ms
+[2015.11.14-11.37.46:817][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset
+[2015.11.14-11.37.50:930][676]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.14-11.39.24:002][767]LogEditorTransaction: Undo Add Node
+[2015.11.14-11.40.17:508][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.40.17:620][433]LogSavePackage: Save=68.991287ms
+[2015.11.14-11.40.17:620][433]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelDEB729FF4ACF4C9D8E74FEAD7466EBB3.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.40.17:623][433]LogSavePackage: Total save time: 74.182041ms
+[2015.11.14-11.40.17:623][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.40.17:660][433]LogFileHelpers: Saving map 'MainLevel' took 0.208
+[2015.11.14-11.40.17:668][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.40.17:771][433]LogSavePackage: Save=98.174789ms
+[2015.11.14-11.40.17:771][433]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background6F97D17449D7593C755103A7796F28DA.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.40.17:774][433]LogSavePackage: Total save time: 103.578307ms
+[2015.11.14-11.40.17:774][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.43.32:281][955]LogEditorTransaction: Undo Split Struct Pin
+[2015.11.14-11.43.33:077][981]LogEditorTransaction: Undo Delete current selection
+[2015.11.14-11.43.34:081][ 19]LogEditorTransaction: Undo Create Pin Link
+[2015.11.14-11.43.34:685][ 44]LogEditorTransaction: Undo Move Node
+[2015.11.14-11.43.35:312][ 68]LogEditorTransaction: Undo Move Node
+[2015.11.14-11.43.35:775][ 85]LogEditorTransaction: Undo Create Pin Link
+[2015.11.14-11.43.36:249][105]LogEditorTransaction: Undo Promote To Variable
+[2015.11.14-11.43.37:090][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.43.37:219][132]LogSavePackage: Save=81.294762ms
+[2015.11.14-11.43.37:219][132]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel8EF74A33417252E36AE91DA44FE6E745.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.43.37:222][132]LogSavePackage: Total save time: 90.468388ms
+[2015.11.14-11.43.37:222][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.43.37:259][132]LogFileHelpers: Saving map 'MainLevel' took 0.225
+[2015.11.14-11.43.37:269][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.43.37:383][132]LogSavePackage: Save=104.842247ms
+[2015.11.14-11.43.37:383][132]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background180AB0104F57DE7506D1E18AD106B824.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.43.37:388][132]LogSavePackage: Total save time: 117.639929ms
+[2015.11.14-11.43.37:388][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.45.10:803][715]BlueprintLog: New page: Compile Background
+[2015.11.14-11.45.10:935][715]BlueprintEditorCompileResults: Info [1848.28] Compile of Background successful! [in 131 ms]
+[2015.11.14-11.45.19:748][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.19:748][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.45.19:748][ 92]PIE: New page: PIE session: MainLevel (Nov 14, 2015, 1:45:19 PM)
+[2015.11.14-11.45.19:748][ 92]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.45.19:752][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003369s)
+[2015.11.14-11.45.19:752][ 92]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.45.19:752][ 92]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2015.11.14-11.45.19:753][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004522s)
+[2015.11.14-11.45.19:833][ 92]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.45.19:839][ 92]LogInit: FAudioDevice initialized.
+[2015.11.14-11.45.19:879][ 92]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.45.19:881][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.45.19
+[2015.11.14-11.45.19:881][ 92]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.45.19:881][ 92]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.45.19:881][ 92]LogWorld: Bringing up level for play took: 0.001812
+[2015.11.14-11.45.19:883][ 92]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.885
+[2015.11.14-11.45.19:883][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.21:849][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.21:910][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.21:950][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000723F96C0
+[2015.11.14-11.45.23:754][263]LogEditorViewport: Clicking on Actor (LMB): Background_C (Background)
+[2015.11.14-11.45.27:185][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.27:185][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.45.27:185][455]PIE: New page: PIE session: MainLevel (Nov 14, 2015, 1:45:27 PM)
+[2015.11.14-11.45.27:185][455]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.45.27:189][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003093s)
+[2015.11.14-11.45.27:189][455]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.45.27:189][455]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2015.11.14-11.45.27:190][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004067s)
+[2015.11.14-11.45.27:234][455]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.45.27:239][455]LogInit: FAudioDevice initialized.
+[2015.11.14-11.45.27:270][455]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.45.27:272][455]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.45.27
+[2015.11.14-11.45.27:272][455]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.45.27:272][455]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.45.27:272][455]LogWorld: Bringing up level for play took: 0.001791
+[2015.11.14-11.45.27:274][455]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.276
+[2015.11.14-11.45.27:275][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.34:076][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.34:120][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.45.34:182][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000090A4C900
+[2015.11.14-11.46.09:816][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.46.09:816][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.46.09:817][995]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:46:09 PM)
+[2015.11.14-11.46.09:817][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.46.09:820][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003200s)
+[2015.11.14-11.46.09:820][995]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.46.09:821][995]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2015.11.14-11.46.09:821][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004143s)
+[2015.11.14-11.46.09:864][995]LogSelection:Warning: PIE object was selected: "Background_C /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Background_C_0"
+[2015.11.14-11.46.09:867][995]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.46.09:871][995]LogInit: FAudioDevice initialized.
+[2015.11.14-11.46.09:903][995]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.46.09:905][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.46.09
+[2015.11.14-11.46.09:905][995]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.46.09:905][995]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.46.09:905][995]LogWorld: Bringing up level for play took: 0.002045
+[2015.11.14-11.46.09:907][995]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0.908
+[2015.11.14-11.46.09:913][995]LogSelection:Warning: PIE object was selected: "Background_C /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.Background_C_0"
+[2015.11.14-11.46.09:913][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.46.12:459][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.46.12:498][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.46.12:562][139]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000094327920
+[2015.11.14-11.46.43:966][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.46.44:079][750]LogSavePackage: Save=69.179970ms
+[2015.11.14-11.46.44:079][750]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel118FE6A1484447C5B43B3CB86784400B.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.46.44:081][750]LogSavePackage: Total save time: 74.356120ms
+[2015.11.14-11.46.44:081][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.46.44:117][750]LogFileHelpers: Saving map 'MainLevel' took 0.205
+[2015.11.14-11.46.44:125][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Background" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset" SILENT=true
+[2015.11.14-11.46.44:238][750]LogSavePackage: Save=108.290253ms
+[2015.11.14-11.46.44:238][750]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Background57D6B9D241ACF8ACD141A0AC82BCB8DF.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-11.46.44:244][750]LogSavePackage: Total save time: 116.393752ms
+[2015.11.14-11.46.44:244][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-11.49.26:156][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Building" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset" SILENT=true
+[2015.11.14-11.49.26:183][618]LogSavePackage: Save=20.212770ms
+[2015.11.14-11.49.26:183][618]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Building30C6DC2140DA3284198053A41E8764A7.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset'
+[2015.11.14-11.49.26:186][618]LogSavePackage: Total save time: 28.643109ms
+[2015.11.14-11.49.26:186][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset
+[2015.11.14-11.50.01:338][594]BlueprintLog: New page: Compile Building
+[2015.11.14-11.50.01:467][594]BlueprintEditorCompileResults: Info [2138.80] Compile of Building successful! [in 129 ms]
+[2015.11.14-11.50.02:459][646]LogEditorViewport: Clicking Background
+[2015.11.14-11.50.04:491][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.50.04:492][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.50.04:492][757]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:50:04 PM)
+[2015.11.14-11.50.04:492][757]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.50.04:497][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004969s)
+[2015.11.14-11.50.04:498][757]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.50.04:498][757]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2015.11.14-11.50.04:498][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.006056s)
+[2015.11.14-11.50.04:543][757]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.50.04:548][757]LogInit: FAudioDevice initialized.
+[2015.11.14-11.50.04:580][757]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.50.04:582][757]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.50.04
+[2015.11.14-11.50.04:582][757]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.50.04:582][757]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.50.04:582][757]LogWorld: Bringing up level for play took: 0.001857
+[2015.11.14-11.50.04:584][757]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.419
+[2015.11.14-11.50.04:585][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.50.13:853][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.50.13:891][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.50.13:931][219]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000598F94E0
+[2015.11.14-11.51.49:876][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.51.50:002][900]LogSavePackage: Save=73.992569ms
+[2015.11.14-11.51.50:002][900]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel0C1DEC974AC665C0A647D9BC3D66A674.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.51.50:007][900]LogSavePackage: Total save time: 84.909741ms
+[2015.11.14-11.51.50:007][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.51.50:041][900]LogFileHelpers: Saving map 'MainLevel' took 0.220
+[2015.11.14-11.51.50:048][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Building" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset" SILENT=true
+[2015.11.14-11.51.50:083][900]LogSavePackage: Save=31.217569ms
+[2015.11.14-11.51.50:083][900]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Building37454D0B428E1BFD42BA268543C4D1C0.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset'
+[2015.11.14-11.51.50:086][900]LogSavePackage: Total save time: 37.036352ms
+[2015.11.14-11.51.50:086][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset
+[2015.11.14-11.51.50:510][924]BlueprintLog: New page: Compile Building
+[2015.11.14-11.51.50:640][924]BlueprintEditorCompileResults: Info [2247.97] Compile of Building successful! [in 129 ms]
+[2015.11.14-11.51.52:785][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.51.52:785][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.51.52:785][ 48]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:51:52 PM)
+[2015.11.14-11.51.52:785][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.51.52:789][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003376s)
+[2015.11.14-11.51.52:789][ 48]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.51.52:789][ 48]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2015.11.14-11.51.52:790][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004429s)
+[2015.11.14-11.51.52:841][ 48]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.51.52:846][ 48]LogInit: FAudioDevice initialized.
+[2015.11.14-11.51.52:881][ 48]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.51.52:883][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.51.52
+[2015.11.14-11.51.52:883][ 48]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.51.52:883][ 48]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.51.52:883][ 48]LogWorld: Bringing up level for play took: 0.001951
+[2015.11.14-11.51.52:885][ 48]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.12
+[2015.11.14-11.51.52:886][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.51.56:918][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.51.56:954][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.51.56:994][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000080C79300
+[2015.11.14-11.52.05:590][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.52.05:704][781]LogSavePackage: Save=69.682068ms
+[2015.11.14-11.52.05:704][781]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevel2C6D025A40605766D77A8584392F81CE.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.52.05:707][781]LogSavePackage: Total save time: 74.645065ms
+[2015.11.14-11.52.05:707][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.52.05:744][781]LogFileHelpers: Saving map 'MainLevel' took 0.212
+[2015.11.14-11.52.06:539][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.52.06:539][827]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.14-11.52.06:544][827]LogPlayLevel: [PlayLevel] Compiling Building before play...
+[2015.11.14-11.52.06:605][827]LogPlayLevel: PlayLevel: Blueprint regeneration took 65 ms (2 blueprints)
+[2015.11.14-11.52.06:616][827]LogPlayLevel: [PlayLevel] Compiling Background before play...
+[2015.11.14-11.52.06:729][827]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (2 blueprints)
+[2015.11.14-11.52.06:776][827]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:52:06 PM)
+[2015.11.14-11.52.06:776][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.52.06:780][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003772s)
+[2015.11.14-11.52.06:781][827]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.52.06:781][827]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2015.11.14-11.52.06:781][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.004726s)
+[2015.11.14-11.52.06:836][827]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.52.06:842][827]LogInit: FAudioDevice initialized.
+[2015.11.14-11.52.06:880][827]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.52.06:882][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.52.06
+[2015.11.14-11.52.06:883][827]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.52.06:883][827]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.52.06:883][827]LogWorld: Bringing up level for play took: 0.002632
+[2015.11.14-11.52.06:885][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.119
+[2015.11.14-11.52.06:887][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.52.34:216][444]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.52.34:253][444]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.52.34:310][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000093C228E0
+[2015.11.14-11.52.59:478][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.11.14-11.52.59:593][941]LogSavePackage: Save=69.913780ms
+[2015.11.14-11.52.59:593][941]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/MainLevelFC9EB9614C131C8A8692B69F6105B20E.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-11.52.59:605][941]LogSavePackage: Total save time: 84.207505ms
+[2015.11.14-11.52.59:605][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-11.52.59:641][941]LogFileHelpers: Saving map 'MainLevel' took 0.219
+[2015.11.14-11.52.59:648][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Scenes/Building" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset" SILENT=true
+[2015.11.14-11.52.59:691][941]LogSavePackage: Save=36.374382ms
+[2015.11.14-11.52.59:691][941]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Building50B96AF347CFB919B8AFD7885EB61AF0.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset'
+[2015.11.14-11.52.59:695][941]LogSavePackage: Total save time: 44.947617ms
+[2015.11.14-11.52.59:695][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Blueprints/Scenes/Building.uasset
+[2015.11.14-11.53.02:168][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.53.02:168][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.14-11.53.02:168][ 87]PIE: New page: SIE session: MainLevel (Nov 14, 2015, 1:53:02 PM)
+[2015.11.14-11.53.02:168][ 87]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2015.11.14-11.53.02:171][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003105s)
+[2015.11.14-11.53.02:172][ 87]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-11.53.02:172][ 87]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2015.11.14-11.53.02:172][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003982s)
+[2015.11.14-11.53.02:218][ 87]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-11.53.02:222][ 87]LogInit: FAudioDevice initialized.
+[2015.11.14-11.53.02:254][ 87]LogWorld: Game class is 'Poopymode_C'
+[2015.11.14-11.53.02:256][ 87]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 60) at 2015.11.14-12.53.02
+[2015.11.14-11.53.02:256][ 87]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.53.02:256][ 87]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.14-11.53.02:256][ 87]LogWorld: Bringing up level for play took: 0.002023
+[2015.11.14-11.53.02:258][ 87]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel -0.748
+[2015.11.14-11.53.02:259][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.53.18:049][983]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.53.18:086][983]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2015.11.14-11.53.18:126][983]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000074FC1DA0
+[2015.11.14-11.56.24:120][414]AssetReimport: New page: Outstanding source content changes 1:56:24 PM
+[2015.11.14-11.56.24:121][414]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:/Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road2.jpg)
+[2015.11.14-11.56.24:256][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road2" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road2.uasset" SILENT=true
+[2015.11.14-11.56.24:276][414]LogSavePackage: Save=18.486202ms
+[2015.11.14-11.56.24:276][414]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road2AC12BCD24BD19DD8E94CEF8C51A38658.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road2.uasset'
+[2015.11.14-11.56.24:279][414]LogSavePackage: Total save time: 21.508683ms
+[2015.11.14-11.56.24:279][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road2.uasset
+[2015.11.14-11.56.27:456][424]AssetReimport: Info Importing new asset /Game/Sprites/road2.
+[2015.11.14-11.56.40:120][462]AssetReimport: New page: Outstanding source content changes 1:56:40 PM
+[2015.11.14-11.56.40:139][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road__2_" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road__2_.uasset" SILENT=true
+[2015.11.14-11.56.40:146][462]LogSavePackage: Save=5.675491ms
+[2015.11.14-11.56.40:146][462]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road__2_B65969F64F4A73D2A1AA1587DC98FECE.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road__2_.uasset'
+[2015.11.14-11.56.40:149][462]LogSavePackage: Total save time: 9.186257ms
+[2015.11.14-11.56.40:454][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road__2_" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road__2_.uasset" SILENT=true
+[2015.11.14-11.56.40:465][463]LogSavePackage: Save=5.132731ms
+[2015.11.14-11.56.40:465][463]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road__2_054FAC4444582CB90655AFB0B5BB2644.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road__2_.uasset'
+[2015.11.14-11.56.40:468][463]LogSavePackage: Total save time: 12.474399ms
+[2015.11.14-11.56.40:468][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road__2_.uasset
+[2015.11.14-11.56.43:790][473]AssetReimport: Info Moving asset /Game/Sprites/road2 to /Game/Sprites/road__2_.
+[2015.11.14-11.56.51:122][495]AssetReimport: New page: Outstanding source content changes 1:56:51 PM
+[2015.11.14-11.56.51:146][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road_2" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road_2.uasset" SILENT=true
+[2015.11.14-11.56.51:152][495]LogSavePackage: Save=4.525630ms
+[2015.11.14-11.56.51:152][495]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road_208AA03444003D9A159E38EBEEF216082.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road_2.uasset'
+[2015.11.14-11.56.51:154][495]LogSavePackage: Total save time: 6.890878ms
+[2015.11.14-11.56.51:343][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Route_sprite" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/Route_sprite.uasset" SILENT=true
+[2015.11.14-11.56.51:358][495]LogSavePackage: Save=9.526520ms
+[2015.11.14-11.56.51:358][495]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/Route_spriteDDE944E54850042F16915BB34F72BFF8.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/Route_sprite.uasset'
+[2015.11.14-11.56.51:361][495]LogSavePackage: Total save time: 15.968584ms
+[2015.11.14-11.56.51:456][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road_2" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road_2.uasset" SILENT=true
+[2015.11.14-11.56.51:466][496]LogSavePackage: Save=4.614445ms
+[2015.11.14-11.56.51:466][496]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road_26ED6347445F448F8FBD109985AC7A55A.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road_2.uasset'
+[2015.11.14-11.56.51:470][496]LogSavePackage: Total save time: 12.317292ms
+[2015.11.14-11.56.51:470][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road_2.uasset
+[2015.11.14-11.56.54:793][506]AssetReimport: Info Moving asset /Game/Sprites/road to /Game/Sprites/road_2.
+[2015.11.14-11.56.56:456][511]AssetReimport: New page: Outstanding source content changes 1:56:56 PM
+[2015.11.14-11.56.56:481][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road.uasset" SILENT=true
+[2015.11.14-11.56.56:490][511]LogSavePackage: Save=5.824701ms
+[2015.11.14-11.56.56:490][511]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road82A5CADA45032989E47539AFF813A86E.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road.uasset'
+[2015.11.14-11.56.56:494][511]LogSavePackage: Total save time: 10.488093ms
+[2015.11.14-11.56.56:790][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/road" FILE="../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road.uasset" SILENT=true
+[2015.11.14-11.56.56:801][512]LogSavePackage: Save=5.369177ms
+[2015.11.14-11.56.56:801][512]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Saved/road2CA4F95F45D360EC26CD7794617ED4EA.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road.uasset'
+[2015.11.14-11.56.56:806][512]LogSavePackage: Total save time: 14.885042ms
+[2015.11.14-11.56.56:806][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaAndPooppy/Content/Sprites/road.uasset
+[2015.11.14-11.56.59:819][541]AssetReimport: Info Moving asset /Game/Sprites/road__2_ to /Game/Sprites/road.
+[2015.11.14-11.57.14:987][295]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.11.14-11.57.15:187][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.11.14-11.57.15:455][296]Cmd: QUIT_EDITOR
+[2015.11.14-11.57.15:650][296]LogExit: Preparing to exit.
+[2015.11.14-11.57.16:727][296]LogExit: Editor shut down
+[2015.11.14-11.57.16:727][296]LogExit: Transaction tracking system shut down
+[2015.11.14-11.57.16:732][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025E3BC40
+[2015.11.14-11.57.16:733][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C131B20
+[2015.11.14-11.57.16:733][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BC27380
+[2015.11.14-11.57.16:738][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010632C00
+[2015.11.14-11.57.16:746][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000541A0AE0
+[2015.11.14-11.57.16:748][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CD44D60
+[2015.11.14-11.57.16:999][296]LogExit: Object subsystem successfully closed.
+[2015.11.14-11.57.17:009][296]LogD3D11RHI: Shutdown
+[2015.11.14-11.57.17:009][296]LogD3D11RHI: CleanupD3DDevice
+[2015.11.14-11.57.17:096][296]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.11.14-11.57.17:118][296]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.11.14-11.57.17:119][296]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.11.14-11.57.17:119][296]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.11.14-11.57.17:119][296]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.11.14-11.57.17:119][296]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.14-11.57.17:119][296]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.14-11.57.17:120][296]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.14-11.57.17:792][296]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.14-11.57.17:793][296]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.14-11.57.17:795][296]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.11.14-11.57.17:828][296]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.14-11.57.17:837][296]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.14-11.57.17:838][296]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.14-11.57.17:839][296]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.14-11.57.17:840][296]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.14-11.57.17:961][296]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.14-11.57.17:962][296]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.14-11.57.17:962][296]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.14-11.57.18:062][296]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.14-11.57.18:062][296]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.14-11.57.18:062][296]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.14-11.57.18:066][296]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.14-11.57.18:066][296]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.11.14-11.57.18:067][296]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.11.14-11.57.18:068][296]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.11.14-11.57.18:068][296]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.11.14-11.57.18:068][296]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.11.14-11.57.18:071][296]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.11.14-11.57.18:089][296]LogDerivedDataCache: Shutdown
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.11.14-11.57.18:089][296]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.11.14-11.57.18:090][296]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.14-11.57.20:091][296]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.14-11.57.20:093][296]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.14-11.57.20:094][296]LogExit: Exiting.
+[2015.11.14-11.57.20:124][296]Log file closed, 11/14/15 12:57:20

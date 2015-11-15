@@ -1,0 +1,727 @@
+﻿[2015.11.14-09.49.01:413][  0]Log file open, 11/14/15 10:49:01
+[2015.11.14-09.49.01:413][  0]LogInit:Display: Running engine for game: GrandmaAndPooppy
+[2015.11.14-09.49.01:413][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.14-09.49.01:413][  0]LogInit:Display: RandInit(-941594233) SRandInit(-941594232).
+[2015.11.14-09.49.01:413][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.11.14-09.49.01:413][  0]LogStats: Stats thread started at 0.318695
+[2015.11.14-09.49.01:413][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.14-09.49.01:413][  0]LogInit: API Version: 2758231
+[2015.11.14-09.49.01:413][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.14-09.49.01:413][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.14-09.49.01:413][  0]LogInit: Build Configuration: Development
+[2015.11.14-09.49.01:413][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.14-09.49.01:413][  0]LogInit: Command line:  
+[2015.11.14-09.49.01:413][  0]LogInit: Base directory: C:/Logiciels/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.14-09.49.01:413][  0]LogInit: Rocket: 1
+[2015.11.14-09.49.01:428][  0]LogInit: Using libcurl 7.41.0
+[2015.11.14-09.49.01:428][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.14-09.49.01:428][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.14-09.49.01:428][  0]LogInit:  - other features:
+[2015.11.14-09.49.01:428][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.14-09.49.01:428][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.14-09.49.01:429][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.14-09.49.01:429][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.14-09.49.01:429][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.14-09.49.01:429][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.14-09.49.01:429][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.14-09.49.01:429][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.14-09.49.01:429][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.14-09.49.01:429][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.14-09.49.01:450][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.14-09.49.01:460][  0]LogInit: Object subsystem initialized
+[2015.11.14-09.49.01:466][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-09.49.01:466][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.14-09.49.01:487][  0]LogInit: Computer: LASALAMANDRE
+[2015.11.14-09.49.01:487][  0]LogInit: User: Julio
+[2015.11.14-09.49.01:487][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.11.14-09.49.01:487][  0]LogInit: High frequency timer resolution =2.533349 MHz
+[2015.11.14-09.49.01:487][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.14-09.49.01:487][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.14-09.49.01:487][  0]LogMemory: Process Physical Memory: 56.88 MB used, 56.88 MB peak
+[2015.11.14-09.49.01:487][  0]LogMemory: Process Virtual Memory: 59.12 MB used, 59.12 MB peak
+[2015.11.14-09.49.01:487][  0]LogMemory: Physical Memory: 7589.67 MB used, 8088.75 MB total
+[2015.11.14-09.49.01:487][  0]LogMemory: Virtual Memory: 355.72 MB used, 8388608.00 MB total
+[2015.11.14-09.49.01:652][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.14-09.49.02:328][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.14-09.49.02:328][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 1 output[s]
+[2015.11.14-09.49.02:349][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 670MX (Feature Level 11_0)
+[2015.11.14-09.49.02:349][  0]LogD3D11RHI: Adapter has 3009MB of dedicated video memory, 0MB of dedicated system memory, and 3788MB of shared system memory, 0 output[s]
+[2015.11.14-09.49.02:349][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.14-09.49.02:356][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.14-09.49.02:356][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.14-09.49.02:375][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.14-09.49.02:391][  0]LogShaderCompilers: Guid format shader working directory is -73 characters bigger than the processId version (../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Intermediate/Shaders/WorkingDirectory/5432/).
+[2015.11.14-09.49.02:392][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Julio/AppData/Local/Temp/UnrealShaderWorkingDir/2C677D5E41482CB6719EAEABD433B9BA/'.
+[2015.11.14-09.49.02:392][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.14-09.49.04:360][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.14-09.49.04:366][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.14-09.49.04:375][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.14-09.49.04:380][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.14-09.49.04:386][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.14-09.49.04:392][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.14-09.49.04:399][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.14-09.49.04:403][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.14-09.49.04:406][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.14-09.49.04:410][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.14-09.49.04:414][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.14-09.49.04:422][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.14-09.49.04:422][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.14-09.49.04:423][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.14-09.49.04:444][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.14-09.49.04:447][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.14-09.49.04:450][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.14-09.49.04:457][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.14-09.49.04:457][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.14-09.49.04:564][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.14-09.49.04:788][  0]LogDerivedDataCache: Loaded boot cache 0.22s 41MB C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.14-09.49.04:788][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.14-09.49.04:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.14-09.49.04:789][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.14-09.49.04:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.14-09.49.04:789][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.14-09.49.04:862][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.14-09.49.04:875][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Julio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.14-09.49.06:789][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.14-09.49.06:790][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.14-09.49.06:837][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.14-09.49.06:837][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.14-09.49.07:225][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.14-09.49.09:628][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.14-09.49.09:760][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.11.14-09.49.09:960][  0]SourceControl: Info Source control is disabled
+[2015.11.14-09.49.09:960][  0]SourceControl: Info Source control is disabled
+[2015.11.14-09.49.09:971][  0]SourceControl: Info Source control is disabled
+[2015.11.14-09.49.09:983][  0]SourceControl: Info Source control is disabled
+[2015.11.14-09.49.10:291][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.14-09.49.10:291][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.11.14-09.49.10:360][  0]LogEngine: Initializing Engine...
+[2015.11.14-09.49.10:364][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.14-09.49.10:379][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.14-09.49.10:535][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.14-09.49.10:544][  0]LogInit: XAudio2 using 'Haut-parleurs (Périphérique High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.11.14-09.49.10:554][  0]LogInit: FAudioDevice initialized.
+[2015.11.14-09.49.10:581][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Julio/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.14-09.49.10:586][  0]LogInit: Texture streaming: Enabled
+[2015.11.14-09.49.10:595][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.14-09.49.10:595][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.14-09.49.10:595][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7363a7de489977d2d6e8a5a849b15fd2|6c143e4a78834ca18f4c828388e83007|ed842e65-bf83-4705-912f-96b2489fe3ee
+[2015.11.14-09.49.10:595][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.14-09.49.10:997][  0]LogInit: Transaction tracking system initialized
+[2015.11.14-09.49.11:052][  0]BlueprintLog: New page: Editor Load
+[2015.11.14-09.49.11:235][  0]LocalizationService: Info Localization service is disabled
+[2015.11.14-09.49.11:498][  0]LogConsoleResponse:Display: 
+[2015.11.14-09.49.11:710][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.14-09.49.11:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/' took 0.01s
+[2015.11.14-09.49.11:825][  0]SourceControl: Info Source control is disabled
+[2015.11.14-09.49.11:826][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.14-09.49.11:826][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.14-09.49.11:880][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.214ms to complete.
+[2015.11.14-09.49.11:880][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.055
+[2015.11.14-09.49.12:032][  0]LogCollectionManager: Loaded 0 collections in 0.003108 seconds
+[2015.11.14-09.49.12:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/Collections/' took 0.01s
+[2015.11.14-09.49.12:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Developers/Julio/Collections/' took 0.01s
+[2015.11.14-09.49.12:073][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Collections/' took 0.01s
+[2015.11.14-09.49.12:073][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.14-09.49.12:084][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 1893 classes and 338 folders.
+[2015.11.14-09.49.12:092][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.11.14-09.49.12:489][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.14-09.49.12:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.11.14-09.49.12:539][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.14-09.49.12:545][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.14-09.49.12:568][  0]LogLoad: Full Startup: 12.17 seconds (BP compile: 0.02 seconds)
+[2015.11.14-09.49.12:590][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.14-09.49.12:711][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.14-09.49.12:919][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2015.11.14-09.49.16:842][142]LogAssetRegistry: Asset discovery search completed in 7.0924 seconds
+[2015.11.14-09.49.16:842][142]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.14-09.49.16:842][142]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2015.11.14-09.49.27:247][574]LogRenderer: Reallocating scene render targets to support 1272x572 (Frame:525).
+[2015.11.14-09.49.31:252][808]LogAIModule: Creating AISystem for world MainLevel
+[2015.11.14-09.49.31:282][808]LightingResults: New page: Lighting Build
+[2015.11.14-09.49.31:286][808]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2015.11.14-09.49.31:302][808]LoadErrors: New page: Loading map: MainLevel.umap
+[2015.11.14-09.49.31:302][808]MapCheck: New page: Map Check
+[2015.11.14-09.49.31:302][808]LightingResults: New page: Lighting Build
+[2015.11.14-09.49.31:321][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000271A9120
+[2015.11.14-09.49.31:323][808]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.14-09.49.31:347][808]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.14-09.49.31:385][808]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38ms to complete.
+[2015.11.14-09.49.31:385][808]LogFileHelpers: Loading map 'MainLevel' took 0.104
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.Map_bluprint:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.Map_bluprint_C' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.Map_bluprint:EventGraph.K2Node_Event_3' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.Map_bluprint:EventGraph.K2Node_Event_4' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.Map_bluprint:EventGraph.K2Node_Event_5' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:881][ 45]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_bluprint.SKEL_Map_bluprint_C' ref from Metadata '/Game/Blueprints/Scenes/Default.PackageMetaData'
+[2015.11.14-09.50.08:932][ 45]LogSavePackage: Save=13.483337ms
+[2015.11.14-09.50.08:932][ 45]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/Map_bluprint8A7BE97942AC1136491C07A9424F91F1.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Map_bluprint.uasset'
+[2015.11.14-09.50.08:991][ 45]LogSavePackage: Total save time: 76.686628ms
+[2015.11.14-09.50.08:991][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Map_bluprint.uasset
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.Map_blueprint_C' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.SKEL_Map_blueprint_C' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.Map_blueprint:EventGraph.K2Node_Event_3' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.Map_blueprint:EventGraph.K2Node_Event_4' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.Map_blueprint:EventGraph.K2Node_Event_5' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:470][598]LogMetaData: Removing '/Game/Blueprints/Scenes/Map_blueprint.Map_blueprint:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/Blueprints/Scenes/Map_bluprint.PackageMetaData'
+[2015.11.14-09.50.18:520][598]LogSavePackage: Save=12.777947ms
+[2015.11.14-09.50.18:520][598]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/Map_blueprintB1FC4F654D0AEA15DFB06DAE32A4C12F.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Map_blueprint.uasset'
+[2015.11.14-09.50.18:522][598]LogSavePackage: Total save time: 15.307799ms
+[2015.11.14-09.50.18:522][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Map_blueprint.uasset
+[2015.11.14-09.50.19:736][660]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.14-09.50.20:388][660]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2015.11.14-09.50.34:106][959]LogEditorViewport: Clicking Background
+[2015.11.14-09.52.09:192][824]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.52.09:192][824]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset.
+[2015.11.14-09.52.09:192][824]LoadErrors:Error: Error /Game/Blueprints/Scenes/Background : Can't find file for asset. /Game/2DSideScroller/Sprites/Background_Sprite
+[2015.11.14-09.52.09:193][824]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.52.09:193][824]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset.
+[2015.11.14-09.52.09:195][824]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.52.09:195][824]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.52.09:195][824]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.52.09:195][824]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.52.09:201][824]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.52.09:201][824]LoadErrors: Info Failed to load /Game/2DSideScroller/Sprites/Background_Sprite.Background_Sprite Referenced by Sprite_GEN_VARIABLE
+[2015.11.14-09.52.09:201][824]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.52.51:108][ 43]LogLinker:Warning: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:108][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:109][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C',MemberName="ReceiveBeginPlay"))'
+[2015.11.14-09.52.51:109][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_269.EdGraphPin_2699''
+[2015.11.14-09.52.51:109][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:109][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C',MemberName="ReceiveBeginPlay")'
+[2015.11.14-09.52.51:110][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:110][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C',MemberName="ReceiveTick"))'
+[2015.11.14-09.52.51:110][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_64.EdGraphPin_2792''
+[2015.11.14-09.52.51:110][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:110][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C',MemberName="ReceiveTick")'
+[2015.11.14-09.52.51:110][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_270.EdGraphPin_2777''
+[2015.11.14-09.52.51:111][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2665.EdGraphPin_21418''
+[2015.11.14-09.52.51:111][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_270.EdGraphPin_2779''
+[2015.11.14-09.52.51:111][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:111][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:111][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_64.EdGraphPin_2795''
+[2015.11.14-09.52.51:111][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2901.EdGraphPin_21477''
+[2015.11.14-09.52.51:111][ 43]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.RenderToTextureMacros:Array to HLSL Code.K2Node_CommutativeAssociativeBinaryOperator_78 or K2Node_CommutativeAssociativeBinaryOperator /Game/Blueprints/Scenes/Background.Background:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_78
+[2015.11.14-09.52.51:112][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_78.EdGraphPin_2994''
+[2015.11.14-09.52.51:112][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:112][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:112][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_630.EdGraphPin_2771''
+[2015.11.14-09.52.51:113][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:114][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:114][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_271.EdGraphPin_2843''
+[2015.11.14-09.52.51:114][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2663.EdGraphPin_3031''
+[2015.11.14-09.52.51:114][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:114][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:115][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2900.EdGraphPin_3021''
+[2015.11.14-09.52.51:115][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_125.EdGraphPin_2912''
+[2015.11.14-09.52.51:115][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2899.EdGraphPin_3004''
+[2015.11.14-09.52.51:115][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:115][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:116][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2900.EdGraphPin_3019''
+[2015.11.14-09.52.51:116][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_632.EdGraphPin_2837''
+[2015.11.14-09.52.51:117][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:117][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:117][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_325.EdGraphPin_22088''
+[2015.11.14-09.52.51:117][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2664.EdGraphPin_3048''
+[2015.11.14-09.52.51:117][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:117][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:118][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2664.EdGraphPin_3046''
+[2015.11.14-09.52.51:118][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_409.EdGraphPin_2885''
+[2015.11.14-09.52.51:119][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:119][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:119][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_125.EdGraphPin_2913''
+[2015.11.14-09.52.51:119][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2901.EdGraphPin_21477''
+[2015.11.14-09.52.51:119][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_633.EdGraphPin_2906''
+[2015.11.14-09.52.51:120][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:120][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:120][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:120][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:121][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:121][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:121][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2665.EdGraphPin_21417''
+[2015.11.14-09.52.51:122][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:122][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:122][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2901.EdGraphPin_21479''
+[2015.11.14-09.52.51:122][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_635.EdGraphPin_21484''
+[2015.11.14-09.52.51:122][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_5.EdGraphPin_22533''
+[2015.11.14-09.52.51:123][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:123][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:123][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2863.EdGraphPin_22399''
+[2015.11.14-09.52.51:123][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_465.EdGraphPin_22714''
+[2015.11.14-09.52.51:124][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_325.EdGraphPin_22090''
+[2015.11.14-09.52.51:124][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_477.EdGraphPin_22067''
+[2015.11.14-09.52.51:124][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:124][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:125][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_465.EdGraphPin_22712''
+[2015.11.14-09.52.51:125][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:125][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:125][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_465.EdGraphPin_22710''
+[2015.11.14-09.52.51:125][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2863.EdGraphPin_22400''
+[2015.11.14-09.52.51:126][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:126][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:126][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_414.EdGraphPin_22423''
+[2015.11.14-09.52.51:126][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_465.EdGraphPin_22711''
+[2015.11.14-09.52.51:127][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:127][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:127][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_707.EdGraphPin_22779''
+[2015.11.14-09.52.51:127][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_487.EdGraphPin_22788''
+[2015.11.14-09.52.51:127][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2382.EdGraphPin_22569''
+[2015.11.14-09.52.51:128][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Knot_18.EdGraphPin_22605''
+[2015.11.14-09.52.51:128][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_487.EdGraphPin_22786''
+[2015.11.14-09.52.51:128][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_689.EdGraphPin_22746''
+[2015.11.14-09.52.51:128][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2382.EdGraphPin_22567''
+[2015.11.14-09.52.51:129][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_88.EdGraphPin_22578''
+[2015.11.14-09.52.51:129][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:129][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:129][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_488.EdGraphPin_22781''
+[2015.11.14-09.52.51:130][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_488.EdGraphPin_22782''
+[2015.11.14-09.52.51:130][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_487.EdGraphPin_22787''
+[2015.11.14-09.52.51:130][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_747.EdGraphPin_22861''
+[2015.11.14-09.52.51:130][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_709.EdGraphPin_22801''
+[2015.11.14-09.52.51:130][ 43]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_488.EdGraphPin_22783''
+[2015.11.14-09.52.51:131][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:131][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:131][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:131][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:132][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:132][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:132][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:132][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:133][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:133][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:134][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:134][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:134][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:134][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:134][ 43]LogLinker: Can't find file '/Game/GameJam/Background'
+[2015.11.14-09.52.51:135][ 43]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/GameJam/Background.Background_C')'
+[2015.11.14-09.52.51:135][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_initiale_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:135][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_initiale_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:135][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:136][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:136][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:136][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:136][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:136][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Taille_periode_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_initiale_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:137][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_initiale_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:138][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Periode_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:138][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:138][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:138][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'x_limite_ciel' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Position_initiale_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'position_route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.51:139][ 43]LogBlueprint:Warning: [Background] CreatePinForVariable: 'Route' variable not found. Base class was probably changed.
+[2015.11.14-09.52.52:699][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C8E1BC0
+[2015.11.14-09.52.52:701][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D6460C0
+[2015.11.14-09.52.52:826][125]LogSavePackage: Save=13.167155ms
+[2015.11.14-09.52.52:826][125]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/MainLevel9B30C94E41F3DFDF2227FF85BA1973E4.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-09.52.52:831][125]LogSavePackage: Total save time: 20.492241ms
+[2015.11.14-09.52.52:831][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-09.52.52:855][125]LogFileHelpers: Saving map 'MainLevel' took 0.134
+[2015.11.14-09.52.52:950][125]LogSavePackage: Save=81.480286ms
+[2015.11.14-09.52.52:950][125]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/BackgroundB372834348405CCF6E6E0ABEF33F4D0D.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-09.52.52:953][125]LogSavePackage: Total save time: 88.919058ms
+[2015.11.14-09.52.52:953][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-09.53.13:246][302]BlueprintLog: New page: Compile Background
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_initiale_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_initiale_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get x_limite_ciel 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "x_limite_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set x_limite_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Periode_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Periode_route 
+[2015.11.14-09.53.13:275][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_initiale_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set Position_initiale_route 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Route 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Taille_periode_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Taille_periode_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set x_limite_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get x_limite_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:276][302]LogBlueprint:Warning: [compiler Background] Warning Could not find a variable named "Position_initiale_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set Position_initiale_ciel 
+[2015.11.14-09.53.13:278][302]LogBlueprint:Error: [compiler Background] Error Dependency cycle detected, preventing node  Set position_route  from being scheduled
+[2015.11.14-09.53.13:278][302]LogBlueprint:Error: [compiler Background] Error Dependency cycle detected, preventing node  Set x_limite_route  from being scheduled
+[2015.11.14-09.53.13:278][302]LogBlueprint:Error: [compiler Background] Error Dependency cycle detected, preventing node  float - float  from being scheduled
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error Dependency cycle detected, preventing node  Break Vector  from being scheduled
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error Dependency cycle detected, preventing node  Set Position_background  from being scheduled
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Route  could not be found
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Taille Periode Ciel  could not be found
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:279][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Ciel  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Initiale Ciel  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Ciel  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Route  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Periode Route  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Initiale Route  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Initiale Route  could not be found
+[2015.11.14-09.53.13:280][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:281][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:281][302]LogBlueprint:Error: [compiler Background] Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:281][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:281][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:281][302]LogBlueprint:Error: [compiler Background] Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:419][302]LogBlueprint:Warning: [compiler Background] Warning [0253.02] Compile of Background failed. 25 Fatal Issue(s) 22 Warning(s) [in 173 ms]
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "position_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set position_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_initiale_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_initiale_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get x_limite_ciel 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "x_limite_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set x_limite_route 
+[2015.11.14-09.53.13:419][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Periode_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Periode_route 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_initiale_route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set Position_initiale_route 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Route" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Route 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Taille_periode_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Taille_periode_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set x_limite_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "x_limite_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get x_limite_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Get Position_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Position_initiale_ciel" in 'Background_C'.
+Make sure 'Background_C' has been compiled for  Set Position_initiale_ciel 
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set position_route  from being scheduled
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set x_limite_route  from being scheduled
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  float - float  from being scheduled
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Break Vector  from being scheduled
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error Dependency cycle detected, preventing node  Set Position_background  from being scheduled
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Taille Periode Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Initiale Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Periode Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Initiale Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Initiale Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  X Limite Ciel  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Error: Error The property associated with  Position Route  could not be found
+[2015.11.14-09.53.13:420][302]BlueprintEditorCompileResults:Warning: Warning [0253.02] Compile of Background failed. 25 Fatal Issue(s) 22 Warning(s) [in 173 ms]
+[2015.11.14-09.53.38:119][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F0A5620
+[2015.11.14-09.53.38:129][533]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057A49940
+[2015.11.14-09.53.40:641][533]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Background_C_0' or package '/Engine/Transient'.
+[2015.11.14-09.53.40:641][533]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Background_C_1' or package '/Engine/Transient'.
+[2015.11.14-09.53.40:641][533]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Background_C_43' or package '/Engine/Transient'.
+[2015.11.14-09.53.40:642][533]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Background_C_42' or package '/Engine/Transient'.
+[2015.11.14-09.54.19:310][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:310][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset.
+[2015.11.14-09.54.19:310][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:310][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset.
+[2015.11.14-09.54.19:312][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:312][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.54.19:312][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:312][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.54.19:325][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:325][985]LoadErrors: Info Failed to load /Game/2DSideScroller/Sprites/Background_Sprite.Background_Sprite Referenced by Ciel_GEN_VARIABLE
+[2015.11.14-09.54.19:325][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.54.19:325][985]LogLinker:Warning: Can't find file '/Game/2DSideScroller/Sprites/Background_Sprite'
+[2015.11.14-09.54.19:325][985]LoadErrors: Info Failed to load /Game/2DSideScroller/Sprites/Background_Sprite.Background_Sprite Referenced by Route_GEN_VARIABLE
+[2015.11.14-09.54.19:326][985]LogLinker:Warning: Can't find file for asset '/Game/2DSideScroller/Sprites/Background_Sprite' while loading NULL.
+[2015.11.14-09.54.34:466][776]LogSavePackage: Save=9.855728ms
+[2015.11.14-09.54.34:466][776]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/MainLevelE19D42C04423E736A082138F146990CC.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-09.54.34:470][776]LogSavePackage: Total save time: 15.316088ms
+[2015.11.14-09.54.34:470][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-09.54.34:498][776]LogFileHelpers: Saving map 'MainLevel' took 0.131
+[2015.11.14-09.54.34:592][776]LogSavePackage: Save=83.717247ms
+[2015.11.14-09.54.34:592][776]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/Background26F6170C483398989A9B359948568845.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset'
+[2015.11.14-09.54.34:595][776]LogSavePackage: Total save time: 87.633405ms
+[2015.11.14-09.54.34:595][776]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Blueprints/Scenes/Background.uasset
+[2015.11.14-09.54.42:578][243]Cmd: TRANSACTION UNDO
+[2015.11.14-09.54.42:578][243]LogEditorTransaction: Undo Create Actors
+[2015.11.14-09.55.06:572][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E3779C0
+[2015.11.14-09.55.06:700][670]LogSavePackage: Save=13.557548ms
+[2015.11.14-09.55.06:700][670]LogSavePackage: Moving '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Saved/MainLevelFF9ED39D4E160E0326F4B2B25467A51D.tmp' to '../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap'
+[2015.11.14-09.55.06:705][670]LogSavePackage: Total save time: 19.366067ms
+[2015.11.14-09.55.06:705][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Julio/Documents/Unreal Projects/GrandmaandPoopy/GameJam-9---grandma_and_pooppy/GrandmaAndPooppy/Content/Maps/MainLevel.umap
+[2015.11.14-09.55.06:726][670]LogFileHelpers: Saving map 'MainLevel' took 0.130
+[2015.11.14-09.59.36:350][757]Cmd: QUIT_EDITOR
+[2015.11.14-09.59.36:602][757]LogExit: Preparing to exit.
+[2015.11.14-09.59.37:844][757]LogExit: Editor shut down
+[2015.11.14-09.59.37:844][757]LogExit: Transaction tracking system shut down
+[2015.11.14-09.59.37:845][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011E20CC0
+[2015.11.14-09.59.37:851][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023AD6160
+[2015.11.14-09.59.37:851][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003ECA9F80
+[2015.11.14-09.59.37:856][757]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057100720
+[2015.11.14-09.59.38:158][757]LogExit: Object subsystem successfully closed.
+[2015.11.14-09.59.38:185][757]LogD3D11RHI: Shutdown
+[2015.11.14-09.59.38:185][757]LogD3D11RHI: CleanupD3DDevice
+[2015.11.14-09.59.38:279][757]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.14-09.59.38:334][757]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2015.11.14-09.59.38:334][757]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2015.11.14-09.59.38:334][757]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2015.11.14-09.59.38:335][757]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.11.14-09.59.38:335][757]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.11.14-09.59.38:335][757]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.11.14-09.59.38:335][757]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.11.14-09.59.38:335][757]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.11.14-09.59.38:338][757]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.11.14-09.59.38:338][757]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.11.14-09.59.38:339][757]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.11.14-09.59.38:339][757]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.11.14-09.59.38:340][757]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.11.14-09.59.38:340][757]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.11.14-09.59.38:340][757]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.11.14-09.59.38:340][757]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.11.14-09.59.38:340][757]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.11.14-09.59.38:341][757]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.11.14-09.59.38:341][757]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.11.14-09.59.38:341][757]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.11.14-09.59.38:341][757]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.11.14-09.59.38:341][757]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.11.14-09.59.38:342][757]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.11.14-09.59.38:343][757]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.11.14-09.59.38:344][757]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.11.14-09.59.38:344][757]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.11.14-09.59.38:344][757]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.11.14-09.59.38:344][757]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.11.14-09.59.38:357][757]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.11.14-09.59.38:357][757]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.11.14-09.59.38:357][757]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.11.14-09.59.38:357][757]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.11.14-09.59.38:358][757]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.11.14-09.59.38:358][757]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.11.14-09.59.38:358][757]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.11.14-09.59.38:358][757]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.11.14-09.59.38:359][757]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.11.14-09.59.38:360][757]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.11.14-09.59.38:360][757]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.11.14-09.59.38:361][757]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.11.14-09.59.38:361][757]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.11.14-09.59.38:361][757]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.11.14-09.59.38:361][757]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.11.14-09.59.38:362][757]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.11.14-09.59.38:362][757]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.11.14-09.59.38:362][757]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.11.14-09.59.38:362][757]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.11.14-09.59.38:363][757]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.11.14-09.59.38:363][757]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.11.14-09.59.38:363][757]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.11.14-09.59.38:364][757]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.11.14-09.59.38:365][757]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.11.14-09.59.38:365][757]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.11.14-09.59.38:366][757]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.11.14-09.59.38:366][757]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.11.14-09.59.38:367][757]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.11.14-09.59.38:368][757]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.11.14-09.59.38:370][757]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.11.14-09.59.38:370][757]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.11.14-09.59.38:370][757]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.11.14-09.59.38:370][757]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.11.14-09.59.38:372][757]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.11.14-09.59.38:373][757]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.11.14-09.59.38:373][757]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.11.14-09.59.38:373][757]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.11.14-09.59.38:373][757]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.11.14-09.59.38:373][757]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.11.14-09.59.38:374][757]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.11.14-09.59.38:374][757]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.11.14-09.59.38:375][757]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.11.14-09.59.38:376][757]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.11.14-09.59.38:376][757]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.11.14-09.59.38:393][757]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.11.14-09.59.38:395][757]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.11.14-09.59.38:408][757]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.11.14-09.59.38:408][757]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.11.14-09.59.38:408][757]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.11.14-09.59.38:408][757]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.11.14-09.59.38:410][757]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.11.14-09.59.38:411][757]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.11.14-09.59.38:411][757]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.11.14-09.59.38:411][757]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.11.14-09.59.38:412][757]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.11.14-09.59.38:413][757]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.11.14-09.59.38:413][757]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.11.14-09.59.38:414][757]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.11.14-09.59.38:414][757]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.11.14-09.59.38:414][757]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.11.14-09.59.38:416][757]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.11.14-09.59.38:417][757]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.11.14-09.59.38:418][757]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.11.14-09.59.38:418][757]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.11.14-09.59.38:418][757]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.11.14-09.59.38:418][757]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.11.14-09.59.38:418][757]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.11.14-09.59.38:419][757]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.11.14-09.59.38:419][757]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.11.14-09.59.38:419][757]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.11.14-09.59.38:421][757]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.11.14-09.59.38:421][757]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.11.14-09.59.38:478][757]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.11.14-09.59.38:479][757]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.11.14-09.59.38:480][757]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.11.14-09.59.38:580][757]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.11.14-09.59.38:580][757]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.11.14-09.59.38:581][757]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.11.14-09.59.38:586][757]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.11.14-09.59.38:586][757]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.11.14-09.59.38:587][757]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.11.14-09.59.38:587][757]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.11.14-09.59.38:587][757]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.11.14-09.59.38:588][757]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.11.14-09.59.38:589][757]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.11.14-09.59.38:589][757]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.11.14-09.59.38:590][757]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.11.14-09.59.38:590][757]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.11.14-09.59.38:590][757]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.11.14-09.59.38:592][757]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.11.14-09.59.38:593][757]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.11.14-09.59.38:594][757]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.11.14-09.59.38:595][757]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.11.14-09.59.38:595][757]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.11.14-09.59.38:599][757]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.11.14-09.59.38:600][757]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.11.14-09.59.38:600][757]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.11.14-09.59.38:601][757]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.11.14-09.59.38:671][757]LogDerivedDataCache: Shutdown
+[2015.11.14-09.59.38:671][757]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.11.14-09.59.38:672][757]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.11.14-09.59.38:672][757]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.11.14-09.59.38:673][757]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.11.14-09.59.38:673][757]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.11.14-09.59.38:673][757]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.11.14-09.59.38:673][757]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.11.14-09.59.38:674][757]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.11.14-09.59.38:675][757]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.11.14-09.59.38:676][757]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.11.14-09.59.40:678][757]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.11.14-09.59.40:680][757]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.11.14-09.59.40:681][757]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.14-09.59.40:681][757]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.14-09.59.40:682][757]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.14-09.59.40:682][757]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.14-09.59.40:682][757]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.14-09.59.40:684][757]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.14-09.59.40:685][757]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.14-09.59.40:686][757]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.14-09.59.40:686][757]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.14-09.59.40:686][757]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.14-09.59.40:688][757]LogExit: Exiting.
+[2015.11.14-09.59.40:707][757]Log file closed, 11/14/15 10:59:40
