@@ -1,4 +1,4 @@
-# GameJam#9-Lyon-grandma_and_puppy
+# GameJam#9 - Lyon - Grandma And Puppy
 Project developped during GameJam#9 at Lyon, France : http://gamedevparty.fr
 
 **Goal:** Create a video game within 48h
