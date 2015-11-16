@@ -5,7 +5,7 @@ Project developped during GameJam#9 at Lyon, France : http://gamedevparty.fr
   
 **Subject imposed:** KAIJU
 
-**Game** Style: 2D scroller/ Platform
+**Game Style** : 2D scroller/ Platform
 
 **Software used:** Unreal Engine, Photoshops, FL Studio
 
