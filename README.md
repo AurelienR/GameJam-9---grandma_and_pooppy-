@@ -38,5 +38,7 @@ will try to stop you.
 
 ## Notes
 
-Be indulgent most of technologies were discovered during the event and we had really few time to develop it
+Be indulgent most of technologies were discovered during the event and we had really few time to develop it.
+
+Enjoy :)!
   
